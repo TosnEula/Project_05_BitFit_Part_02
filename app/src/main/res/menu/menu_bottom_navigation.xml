@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/nav_activities"
+        android:enabled="true"
+        android:icon="@drawable/activities_24dp"
+        android:title="@string/Activities"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/nav_summary"
+        android:enabled="true"
+        android:icon="@drawable/summary_24dp"
+        android:title="@string/Summary"
+        app:showAsAction="ifRoom" />
+</menu>

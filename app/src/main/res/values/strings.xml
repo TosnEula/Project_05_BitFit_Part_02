@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Project_05_BitFit_Part_02</string>
+    <string name="Activities">Activites</string>
+    <string name="Summary">Summary</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/lowFreqTV"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Low Frequncy Activities"
+        android:textSize="20dp"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/medFreqTV"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Medium Frequncy Activities"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/lowFreqTV" />
+
+    <TextView
+        android:id="@+id/HighFreqTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="High Frequncy Activities"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/medFreqTV" />
+
+    <TextView
+        android:id="@+id/lowFreqTotalTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Low Total"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/medFreqTotalTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Medium Total"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/lowFreqTotalTV" />
+
+    <TextView
+        android:id="@+id/highFreqTotalTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="High Total"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/medFreqTotalTV" />
+
+    <Button
+        android:id="@+id/sumAddBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add new activity"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/HighFreqTV"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
